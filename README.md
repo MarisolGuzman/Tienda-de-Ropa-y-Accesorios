@@ -1,6 +1,8 @@
 # Tienda de Ropa y Accesorios
 #### Este proyecto es una página web diseñada para mostrar y gestionar una tienda de ropa y accesorios. El archivo principal es index.html, que contiene el diseño y estructura principal del sitio.
 
+ - El objetivo del proyecto es proporcionar una plataforma funcional y atractiva para mostrar ropa y accesorios, destacando promociones e inspirando a los clientes con estilos modernos.
+
 ## Características principales
 
 - Diseño atractivo: La página cuenta con un diseño moderno y profesional.
@@ -16,10 +18,30 @@
 - img: como buenas practicas se creo una carpeta para contener las imagenes del documento index.html
 
 ### Secciones de la página
-- Inicio: Presentación de la tienda con imágenes y un mensaje de bienvenida.
+- Inicio: Presentación de la tienda.
 - Catálogo: Productos organizados por categorías.
 - Ofertas: Promociones y descuentos especiales.
-- Contacto: Formulario para que los usuarios puedan comunicarse con la tienda.
+- Contacto: Url de instagram
+
+### Funcionalidades del Sitio Web:
+#### Encabezado con búsqueda:
+
+- Incluye un buscador para facilitar la navegación por productos, marcas y más.
+- Enlaces a categorías populares como jeans, camisas, abrigos y accesorios.
+Promociones destacadas:
+
+- Sección con ofertas relevantes, como el descuento del Buen Fin, acompañado de un diseño visual atractivo.
+  
+#### Sección de estilos:
+- Presentación de estilos destacados para mujeres y hombres, con imágenes de alta calidad.
+
+#### Especificaciones de tallas:
+- Tabla con medidas detalladas (pecho, cintura, cadera, largo de manga y largo total) para ayudar a los clientes a elegir la talla adecuada.
+Pie de página:
+
+#### Navegación rápida a las secciones principales: 
+- Inicio, Servicios, Productos y Contacto (vinculado a Instagram).
+Información sobre términos, condiciones y aviso de privacidad.
 
 ### Cómo usar este proyecto
 
@@ -37,7 +59,8 @@ Copiar código
 
 ### Tecnologías utilizadas
 - HTML5: Para la estructura de la página.
-- CSS: Para el diseño y los estilos.
+- CSS3: (referenciado en style.css) para el diseño y estilo visual.
+- Imágenes: Iconos, logotipos y fotos promocionales para enriquecer la experiencia del usuario.
 
 -------------
 ### Próximos pasos
