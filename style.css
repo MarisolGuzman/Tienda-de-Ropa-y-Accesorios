@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(45deg, #e3e1df, #000000);
+    padding: 20px;
+}
+
+.menu {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fcf8f7;
+}
+
+.menu ul li {
+    position: relative;
+    float: left;
+}
+
+.menu ul li {
+    font-size: 18px;
+    padding: 20px
+}
+
+.header {
+    background-image: url(./img/Otoño.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.Descuento {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #f7f2ef;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #100101;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.Estilos {
+    font-size: 1.1rem;
+    color: #2a0606;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Hombre {
+    font-size: 1.1rem;
+    color: #2a0606;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #030000;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+h3 {
+    color: #0f0101;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.Terminos {
+    color: #030000;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Busqueda {
+    width: 200%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+{}
