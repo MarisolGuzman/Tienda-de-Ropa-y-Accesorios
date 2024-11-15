@@ -49,7 +49,7 @@ Copiar código
 Si quieres contribuir a este proyecto, eres bienvenido/a. Por favor, abre un pull request o envía tus sugerencias en la sección de issues.
 ____________
 
-### Contacto:
-
+### Datos de Contacto:
+- Marisol Montero Guzmán
      - Correo: marisolbob31@gmail.com
      - Celular: 5668493935
