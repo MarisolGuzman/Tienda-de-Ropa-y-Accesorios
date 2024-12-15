@@ -11,126 +11,100 @@
 
 <body>
     <header class="header">
-        <main>
-            <section>
-
-                <h1>Tienda de Ropa y Accesorios <img src="./img/icon ropa.jpg" alt="Logo" width="45" title="Los de la G">
-                </h1>
-
-                <h2>Encuentra tu estilo</h2>
-            </section>
-            <hr>
-
-            <div class="Busqueda">
-                <h3>Busqueda:</h3>
-                <input type="text" placeholder="Buscar por producto, marca y más...">
-
-                <div class="menu">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="https://www.zara.com/mx/es/search?searchTerm=Jeans&section=WOMAN" target="_blank">Jeans</a></li>
-                            <li>
-                                <a href="https://www.zara.com/mx/es/search?searchTerm=camisa&section=WOMAN" target="_blank">Camisas</a></li>
-                            <li>
-                                <a href="https://www.bananarepublic.com.mx/tienda?s=abrigos" target="_blank">Abrigos</a></li>
-                            <li>
-                                <a href="https://julio.com/accesorios?srsltid=AfmBOor529UQXwh4RGNL9Lv8hRI98PgQqGdYaG6RgYeDpojf4AvVzErU" target="_blank">Accesorios</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
+        <div class="main-nav">
+            <h1>Tienda de Ropa y Accesorios</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#estilos-mujer">Mujer</a></li>
+                    <li><a href="#estilos-hombre">Hombre</a></li>
+                    <li><a href="#tabla-tallas">Tallas</a></li>
+                    <li><a href="https://www.instagram.com/ghhshop23" target="_blank">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <br>
-    <br>
-    <br>
-    <div class="Descuento">
-        <hr>
-        <p> -40% EN ARTÍCULOS SELECCIONADOS<br> 14-18 NOVIEMBRE <br> COMIENZA HOY <br> APP 21H │ WEB 22H │ TIENDA 15/11 </p>
-        <img src="./img/Buen fin.png" alt="Buen fin" width="700" title="Buen fin">
-    </div>
 
-    <div>
-        <h2>●•●•●•Estilos que amas•●•●•●</h2>
-    </div>
+    <section class="Busqueda">
+        <h3>Buscar:</h3>
+        <input type="text" placeholder="Buscar por producto, marca y más...">
+    </section>
 
-    <div class="Estilos">
+    <section class="Descuento">
+        <h2>-40% EN ARTÍCULOS SELECCIONADOS</h2>
+        <p>14-18 NOVIEMBRE · COMIENZA HOY</p>
+        <img src="./img/sale.jpeg" alt="sale">
+    </section>
 
+    <section id="estilos-mujer" class="grid-container">
+        <div>
+            <h2>Estilo Mujer</h2>
+            <img src="./img/Estilo 1 mujer.png" alt="Estilo Mujer" class="img-responsive">
+        </div>
+    </section>
 
-        <h2>Estilo Mujer</h2>
-        <img src="./img/Estilo 1 mujer.png" alt="Estilo mujer" width="800">
-    </div>
+    <section id="estilos-hombre" class="grid-container">
+        <div>
+            <h2>Estilo Hombre</h2>
+            <img src="./img/Estilo 2 hombre.jpg" alt="Estilo Hombre" class="img-responsive">
+        </div>
+    </section>
 
-    <div class="Hombre">
-        <h2>Estilo Hombre</h2>
-        <img src="./img/Estilo 2 hombre.jpg" alt="Estilo hombre" width="800">
-
-    </div>
-
-    <hr>
-    <div>
+    <section id="tabla-tallas" class="tabla-tallas">
         <h3>Especificaciones de Tallas</h3>
-        <p>Medidas de contorno para las tallas S, M y L</p>
         <table>
-            <tr>
-                <th>Talla</th>
-                <th>Contorno de pecho (cm)</th>
-                <th>Contorno de cintura (cm)</th>
-                <th>Contorno de cadera (cm)</th>
-                <th>Largo de manga (cm)</th>
-                <th>Largo total (cm)</th>
-            </tr>
-            <tr>
-                <td>S</td>
-                <td>94</td>
-                <td>76</td>
-                <td>98</td>
-                <td>58</td>
-                <td>70</td>
-            </tr>
-            <tr>
-                <td>M</td>
-                <td>102</td>
-                <td>84</td>
-                <td>106</td>
-                <td>60</td>
-                <td>75</td>
-            </tr>
-            <tr>
-                <td>L</td>
-                <td>110</td>
-                <td>92</td>
-                <td>114</td>
-                <td>62</td>
-                <td>80</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Talla</th>
+                    <th>Contorno de pecho (cm)</th>
+                    <th>Contorno de cintura (cm)</th>
+                    <th>Contorno de cadera (cm)</th>
+                    <th>Largo de manga (cm)</th>
+                    <th>Largo total (cm)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>S</td>
+                    <td>94</td>
+                    <td>76</td>
+                    <td>98</td>
+                    <td>58</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>102</td>
+                    <td>84</td>
+                    <td>106</td>
+                    <td>60</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>110</td>
+                    <td>92</td>
+                    <td>114</td>
+                    <td>62</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
         </table>
-    </div>
-    <hr>
+    </section>
 
-    <footer>
-        <div class="link">
+    <footer class="footer">
+        <div class="footer-links">
             <ul>
-                <li>
-                    <a href="#Inicio">Inicio</a></li>
-                <li>
-                    <a href="#Servicios">Servicios</a></li>
-                <li>
-                    <a href="#Productos">Productos</a></li>
-                <li>
-                    <a href="https://www.instagram.com/ghhshop23?utm_source=qr&igsh=MXB6OXUwNWoyczFsMA==" target="_blank">Contacto</a></li>
-
-
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
-        <hr>
-        <div class="Terminos">
-            <h5>© Términos y condiciones/Aviso de Privacidad © 2024/ <br> | Los de la G |/Todos los derechos reservados M G ®</p>
-            </h5>
+        <div class="footer-terms">
+            <p>© 2024 Los de la G · Todos los derechos reservados</p>
+            <p>Términos y condiciones · Aviso de privacidad</p>
         </div>
-
     </footer>
-
 </body>
 
 </html>

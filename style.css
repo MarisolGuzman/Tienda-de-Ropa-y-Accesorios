@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset general */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,101 +10,200 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    background: linear-gradient(45deg, #e3e1df, #000000);
-    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #e3e1df);
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: url('./img/textura.jpg');
+    background-size: cover;
+    /* Asegura que la textura cubra toda la pantalla */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 
-.menu {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #fcf8f7;
-}
 
-.menu ul li {
-    position: relative;
-    float: left;
-}
-
-.menu ul li {
-    font-size: 18px;
-    padding: 20px
-}
+/* Header */
 
 .header {
-    background-image: url(./img/Otoño.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url('./img/Otoño.jpg');
     background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.Descuento {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #f7f2ef;
+.navbar ul {
+    display: flex;
+    gap: 20px;
 }
 
-h1 {
-    font-size: 3.5rem;
-    color: #100101;
-    text-align: center;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.navbar a {
+    color: white;
     font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
-.Estilos {
-    font-size: 1.1rem;
-    color: #2a0606;
-    text-align: center;
-    font-weight: bold;
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
-.Hombre {
-    font-size: 1.1rem;
-    color: #2a0606;
-    text-align: center;
-    font-weight: bold;
-}
 
-h2 {
-    color: #030000;
-    margin-top: 30px;
-    font-weight: bold;
-    text-align: center;
-    font-family: "Edu AU VIC WA NT Pre", cursive;
-}
-
-h3 {
-    color: #0f0101;
-    margin-top: 40px;
-    font-weight: bold;
-}
-
-.Terminos {
-    color: #030000;
-    margin-top: 30px;
-    text-align: center;
-}
+/* Search Section */
 
 .Busqueda {
-    width: 200%;
-    padding: 20px;
-    margin: 10px 0;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    max-width: 600px;
+}
+
+.Busqueda input {
+    width: 80%;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-input {
-    width: 50%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
+
+/* Discount Section */
+
+.Descuento {
+    text-align: center;
+    color: #3be61d;
+    margin: 20px auto;
+    font-weight: bold;
 }
+
+.Descuento img {
+    max-width: 400%;
+    height: auto;
+    border-radius: 100px;
+    max-width: 400%;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+/* Grid Section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Table Section */
+
+.tabla-tallas {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.tabla-tallas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-tallas th,
+.tabla-tallas td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-tallas th {
+    background-color: #f4f4f4;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00bcd4;
+}
+
+.footer-terms {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Busqueda input {
+        width: 90%;
+    }
+    .grid-container {
+        padding: 10px;
+    }
+}
+
+{}
+
+{}
+
+{}
 
 {}
