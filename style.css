@@ -139,3 +139,63 @@ body {
 .tabla-tallas th {
     background-color: #f4f4f4;
 }
+
+
+/* Footer */
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00bcd4;
+}
+
+.footer-terms {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Busqueda input {
+        width: 90%;
+    }
+    .grid-container {
+        padding: 10px;
+    }
+}
+
+{}
+
+{}
+
+{}
+
+{}
