@@ -1,4 +1,4 @@
-/* Reset general */
+    /* Reset general */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
@@ -209,8 +209,26 @@ body {
     /* Cambia a tu color deseado */
 }
 
-{}
+.justify-around {
+    justify-content: space-around;
+    color: #ddd;
+    display: flex;
+}
 
-{}
+.contenedor .item {
+    flex: 1;
+    /* Hace que todos los elementos tengan el mismo tamaño */
+    padding: 10px;
+    /* Añade espacio entre los elementos */
+}
 
-{}
+.contenedor .item img {
+    width: 100%;
+    /* Ocupa todo el ancho del contenedor flex */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    /* Opcional: bordes redondeados para un mejor diseño */
+    {}
+    {}
+    {}
