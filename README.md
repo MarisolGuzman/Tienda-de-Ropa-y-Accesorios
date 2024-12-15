@@ -5,9 +5,12 @@
 
 ## Características principales
 
-- Diseño atractivo: La página cuenta con un diseño moderno y profesional.
+- Diseño atractivo: La página cuenta con un diseño moderno acorde a la temporada navideña.
 - Catálogo de productos: Se presentan diferentes categorías como ropa, accesorios y ofertas.
-- Interactividad: Integración de estilos CSS  para mejorar la experiencia del usuario.
+- Descuento: Un banner para promocionar ofertas especiales, como un 40% de descuento en artículos seleccionados.
+- Estilo de Mujer y Hombre: Sección con imágenes que muestran productos de diferentes estilos para mujer y hombre.
+- Tabla de Tallas: Tabla con las especificaciones de tallas para ayudar a los usuarios a elegir las prendas correctas.
+-Pie de página: Enlaces a otras secciones de la página y la información de derechos reservados y términos y condiciones.
 - Fácil navegación: Barra de navegación para acceder rápidamente a las diferentes secciones.
 
 ### Contenidos del proyecto
@@ -15,7 +18,7 @@
 
 - index.html: El archivo HTML principal que contiene la estructura básica de la tienda.
 - style.css: Archivo de estilos para personalizar el diseño de la página.
-- img: como buenas practicas se creo una carpeta para contener las imagenes del documento index.html
+- img/: como buenas practicas se creo una carpeta para contener las imagenes del documento index.html
 
 ### Secciones de la página
 - Inicio: Presentación de la tienda.
@@ -30,18 +33,16 @@
 - Enlaces a categorías populares como jeans, camisas, abrigos y accesorios.
 Promociones destacadas:
 
-- Sección con ofertas relevantes, como el descuento del Buen Fin, acompañado de un diseño visual atractivo.
+- Sección con ofertas relevantes, como el descuento, acompañado de un diseño visual atractivo.
   
 #### Sección de estilos:
 - Presentación de estilos destacados para mujeres y hombres, con imágenes de alta calidad.
 
-#### Especificaciones de tallas:
-- Tabla con medidas detalladas (pecho, cintura, cadera, largo de manga y largo total) para ayudar a los clientes a elegir la talla adecuada.
-Pie de página:
 
-#### Navegación rápida a las secciones principales: 
-- Inicio, Servicios, Productos y Contacto (vinculado a Instagram).
-Información sobre términos, condiciones y aviso de privacidad.
+### Tecnologías utilizadas
+- HTML5: Para la estructura de la página.
+- CSS3: (referenciado en style.css) para el diseño y estilo visual.
+- Imágenes: Iconos, logotipos y fotos promocionales para enriquecer la experiencia del usuario.
 
 ### Cómo usar este proyecto
 
@@ -57,10 +58,10 @@ Copiar código
       - Modifica los colores y fuentes en style.css.
 
 
-### Tecnologías utilizadas
-- HTML5: Para la estructura de la página.
-- CSS3: (referenciado en style.css) para el diseño y estilo visual.
-- Imágenes: Iconos, logotipos y fotos promocionales para enriquecer la experiencia del usuario.
+### Características
+-Diseño Responsivo: El sitio es completamente funcional en dispositivos móviles, tabletas y escritorios gracias a las consultas de medios en CSS.
+-Enlaces Externos: Los usuarios pueden ser dirigidos a Instagram para contacto o más información.
+-Estilo Visual: Uso de gradientes de fondo, imágenes destacadas y una tipografía elegante para mejorar la experiencia de navegación.
 
 -------------
 ### Próximos pasos
