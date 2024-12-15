@@ -1,234 +1,212 @@
-    /* Reset general */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #ffffff, #e3e1df);
-    padding: 0;
-    margin: 0;
-    background: url('./img/textura.jpg');
-    background-size: cover;
-    /* Asegura que la textura cubra toda la pantalla */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* Header */
-
-.header {
-    background-image: url('./img/navidad5.webp');
-    background-size: cover;
-    background-position: center;
-    color: rgb(237, 232, 232);
-    padding: 20px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(248, 243, 243, 0.1);
-}
-
-.main-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.navbar ul {
-    display: flex;
-    gap: 20px;
-    color: #fcf9f9;
-    /* Fondo al pasar el mouse */
-}
-
-.navbar a {
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 1rem;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-.navbar a:hover {
-    background: rgba(185, 160, 160, );
-}
-
-
-/* Search Section */
-
-.Busqueda {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px 20px;
-    max-width: 600px;
-}
-
-.Busqueda input {
-    width: 80%;
-    padding: 10px;
-    border: 1px solid #661313;
-    border-radius: 5px;
-}
-
-
-/* Discount Section */
-
-.Descuento {
-    text-align: center;
-    color: #3be61d;
-    margin: 20px auto;
-    font-weight: bold;
-}
-
-.Descuento img {
-    max-width: 400%;
-    height: auto;
-    border-radius: 100px;
-    max-width: 400%;
-    border-radius: 10px;
-    margin: 20px auto;
-    display: block;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.img-responsive {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.tabla-tallas {
-    text-align: center;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-}
-
-.tabla-tallas table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.tabla-tallas th,
-.tabla-tallas td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
-
-.tabla-tallas th {
-    background-color: #0c0b06;
-}
-
-
-/* Footer */
-
-.footer {
-    background: #333;
-    color: rgb(172, 53, 53);
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-links ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.footer-links a {
-    color: white;
-    font-size: 0.9rem;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #4bcfe0;
-}
-
-.footer-terms {
-    margin-top: 20px;
-    font-size: 0.8rem;
-    line-height: 1.5;
-}
-
-
-/* Responsive Design */
-
-@media (max-width: 768px) {
-    .main-nav {
-        flex-direction: column;
-    }
-    .navbar ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .Busqueda input {
-        width: 90%;
-    }
-    .grid-container {
-        padding: 10px;
-    }
-}
-
-#estilos-mujer h2 {
-    color: #ece6e5;
-    /* Color para "Estilo de Mujer" */
-}
-
-#estilos-hombre h2 {
-    color: #e8ecf4;
-    /* Color para "Estilo de Hombre" */
-}
-
-.tabla-tallas th,
-.tabla-tallas td {
-    color: #6bdb6f;
-    /* Cambia a tu color deseado */
-}
-
-.justify-around {
-    justify-content: space-around;
-    color: #ddd;
-    display: flex;
-}
-
-.contenedor .item {
-    flex: 1;
-    /* Hace que todos los elementos tengan el mismo tamaño */
-    padding: 10px;
-    /* Añade espacio entre los elementos */
-}
-
-.contenedor .item img {
-    width: 100%;
-    /* Ocupa todo el ancho del contenedor flex */
-    height: auto;
-    /* Mantiene la proporción de la imagen */
-    border-radius: 10px;
-    /* Opcional: bordes redondeados para un mejor diseño */
-    {}
-    {}
-    {}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #ffffff, #e3e1df);
+      padding: 0;
+      margin: 0;
+      background: url('./img/textura.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+  }
+  /* Header */
+  
+  .header {
+      background-image: url('./img/navidad5.webp');
+      background-size: cover;
+      background-position: center;
+      color: rgb(237, 232, 232);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(248, 243, 243, 0.1);
+  }
+  
+  .main-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      max-width: 1200px;
+      margin: auto;
+  }
+  
+  .navbar ul {
+      display: flex;
+      gap: 20px;
+      color: #fcf9f9;
+      /* Fondo al pasar el mouse */
+  }
+  
+  .navbar a {
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 10px 15px;
+      border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+      background: rgba(185, 160, 160, );
+  }
+  
+  .Busqueda {
+      text-align: center;
+      margin: 20px auto;
+      padding: 10px 20px;
+      max-width: 600px;
+  }
+  
+  .Busqueda input {
+      width: 80%;
+      padding: 10px;
+      border: 1px solid #661313;
+      border-radius: 5px;
+  }
+  
+  .Descuento {
+      text-align: center;
+      color: #3be61d;
+      margin: 20px auto;
+      font-weight: bold;
+  }
+  
+  .Descuento img {
+      max-width: 400%;
+      height: auto;
+      border-radius: 100px;
+      max-width: 400%;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+  }
+  
+  .img-responsive {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .tabla-tallas {
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+  }
+  
+  .tabla-tallas table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  
+  .tabla-tallas th,
+  .tabla-tallas td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .tabla-tallas th {
+      background-color: #0c0b06;
+  }
+  /* Footer */
+  
+  .footer {
+      background: #333;
+      color: rgb(172, 53, 53);
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .footer-links ul {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  .footer-links a {
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+      color: #4bcfe0;
+  }
+  
+  .footer-terms {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      line-height: 1.5;
+  }
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+      .main-nav {
+          flex-direction: column;
+      }
+      .navbar ul {
+          flex-direction: column;
+          gap: 10px;
+      }
+      .Busqueda input {
+          width: 90%;
+      }
+      .grid-container {
+          padding: 10px;
+      }
+  }
+  
+  #estilos-mujer h2 {
+      color: #ece6e5;
+      /* Color para "Estilo de Mujer" */
+  }
+  
+  #estilos-hombre h2 {
+      color: #e8ecf4;
+      /* Color para "Estilo de Hombre" */
+  }
+  
+  .tabla-tallas th,
+  .tabla-tallas td {
+      color: #6bdb6f;
+      /* Color tablas */
+  }
+  
+  .justify-around {
+      justify-content: space-around;
+      color: #ddd;
+      display: flex;
+  }
+  
+  .contenedor .item {
+      flex: 1;
+      padding: 10px;
+  }
+  
+  .contenedor .item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
